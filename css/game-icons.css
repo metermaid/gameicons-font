@@ -7,16 +7,18 @@
 		url('./game-icons.svg#game-icons') format('svg');
 }
 
-.icon:before {
+.icon {
 	font-family: "game-icons";
 		-webkit-font-smoothing: antialiased;
 		-moz-osx-font-smoothing: grayscale;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: normal;
+	font-size: inherit;
 	/* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
 	text-decoration: none;
 	text-transform: none;
+	text-rendering: auto;
 }
 
 
